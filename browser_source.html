@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Claudio Bustos" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biblia OBS - Display</title>
+  <style>
+    html,body{margin:0;padding:0;height:100%;width:100%;background:transparent;overflow:hidden}
+    #display{position:absolute;bottom:3vh;left:4vw;font-size:2.8vw;color:#f0f0f0;font-family:"Myriad Pro","Segoe UI",Helvetica,Arial,sans-serif;font-weight:400;letter-spacing:.4px;opacity:.95;text-align:left;text-shadow:0 0 8px rgba(0,0,0,.3)}
+  </style>
+</head>
+<body>
+  <div id="display"></div>
+  <script>
+    const display=document.getElementById("display");
+    const channel=new BroadcastChannel("myChannel");
+    function formatVerseName(text){if(!text)return"";text=text.toLowerCase();return text.replace(/\b([a-záéíóúñü])/g,l=>l.toUpperCase())}
+    channel.onmessage=e=>{let msg=e.data||"";const match=msg.match(/^(.*?\s\d+:\d+)/);if(match){const formatted=formatVerseName(match[1]);display.textContent=formatted}else{display.textContent=""}}
+  </script>
+</body>
+</html>
