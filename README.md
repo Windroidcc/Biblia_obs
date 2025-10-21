@@ -1,19 +1,19 @@
-Biblia OBS es una herramienta desarrollada por Claudio Bustos para mostrar versículos bíblicos en tiempo real dentro de OBS Studio, mediante un panel de control y una fuente de navegador.
+Biblia OBS is a tool developed by Claudio Bustos to display Bible verses in real time inside OBS Studio, using a control panel and a browser source.
 
-Permite buscar y seleccionar libros, capítulos y versículos, mostrando instantáneamente las referencias en pantalla.
+It allows you to search and select books, chapters, and verses, instantly showing the references on screen.
 
-Su diseño minimalista, oscuro y moderno está optimizado para transmisiones en vivo o conferencias, ofreciendo una experiencia fluida y profesional.
+Its minimalist, dark, and modern design is optimized for live broadcasts or conferences, providing a smooth and professional experience.
 
-Características principales:
+Main features:
 
-Búsqueda instantánea de versículos con autocompletado.
+Instant verse search with autocomplete.
 
-Soporte para rangos de versículos (ej: Génesis 1:1–10).
+Support for verse ranges (e.g., Genesis 1:1–10).
 
-Compatibilidad completa con OBS Browser Source.
+Full compatibility with OBS Browser Source.
 
-Interfaz minimalista en tema oscuro.
+Minimalist dark-themed interface.
 
-Sin dependencias externas (HTML, CSS, JS puros).
+No external dependencies (pure HTML, CSS, and JS).
 
 © 2025 Claudio Bustos — claudiobcardenas@gmail.com
