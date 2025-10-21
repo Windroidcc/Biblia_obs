@@ -2,7 +2,7 @@ Biblia OBS es una herramienta desarrollada por Claudio Bustos para mostrar vers�
 
 Permite buscar y seleccionar libros, capítulos y versículos, mostrando instantáneamente las referencias en pantalla.
 
-Su diseño minimalista, oscuro y moderno está optimizado para transmisiones en vivo, conferencias o cultos, ofreciendo una experiencia fluida y profesional.
+Su diseño minimalista, oscuro y moderno está optimizado para transmisiones en vivo o conferencias, ofreciendo una experiencia fluida y profesional.
 
 Características principales:
 
